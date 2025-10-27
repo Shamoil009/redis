@@ -13,9 +13,9 @@ app.use(cors());
 
 const redisClient = Redis.createClient({
   username: "default",
-  password: "Fk6ezJdFce9mEvo22cBYK3qxqo9bcEZd",
+  password: "PASSWORD",
   socket: {
-    host: "redis-13803.c16.us-east-1-2.ec2.redns.redis-cloud.com",
+    host: "HOST",
     port: 13803,
   },
 });
